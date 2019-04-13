@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+}
+
+nav {
+    /*min-height: 90px;*/
+    margin: 0px 0px;
+    padding: 1em 50px;
+    background-color: #000000;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+/*nav div{*/
+  width: 80%;
+}
+
+/*.nav-logo img {*/
+	width: 8%;
+    /*height: 50px;*/
+}
+
+.navbar-collapse {
+    /*width: 50%;*/
+    list-style: none;
+    padding-left: 10px 30px;
+    /*color: white;*/
+    font size: 20px;
+    font-weight: bold;
+    text-align: right;
+    /*float: right;*/
+}
+
+.navbar{
+    padding: 4px 0px;
+    height: 80px;
+    float: none; 
+    position: absolute;
+}
+
+.navbar-brand img{
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    margin: auto 10%;
+}
+
+.navbar-collapse {
+    /*width: 50%;*/
+    list-style: none;
+    padding-left: 10px 30px;
+    /*color: white;*/
+    font size: 20px;
+    font-weight: bold;
+    /*text-align: right;*/
+    /*float: right;*/
+}
+
+.nav-link li {
+    cursor: pointer;
+}
+
+.nav-link li:hover {
+    color: var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
+}
+
+.nav-link li + li {
+    margin-left: 2em;
+}
+
+/*.searchTerm{*/
+	/*float: right;*/
+	width:50%;
+	border:1px solid #00B4CC;
+	padding: 0.5px;
+	height: 5px;
+	/*border-radius: 2px;*/
+	outline: none;
+	color: #9DBFAF;
+}
+
+/*.nav-search span + span {*/
+    /*margin-left: 1em;*/
+}
+/*.searchButton{*/
+	float: right;
+}
+header{
+    background-image: url("images/nartisan.jpg");
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 50%;
+}
+
+.header-image {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 80%;
+    background-image: url("images/nartisan.jpg");
+    /*background-repeat: no-repeat;*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position-y: 50%;
+    /*background-position: center;*/
+    /*opacity: 0.5;*/
+    /*width-left: auto;*/
+    /*margin-right: auto;*/
+    /*padding: 15px;*/
+    /*background-color: #1a1a1a;*/
+    /*filter: alpha(opacity=50);*/
+}
+
+
+.header-image img {
+    width: 50%;
+}
+
+.header-text {
+    /*width: 50%;*/
+    /*position: center;*/
+    text-align: center;
+    /*z-index: -1;*/
+    color: #00008B;
+    /*margin: 4em*/
+}
+
+.header-text h2 {
+    font-size: 4em;
+    /*position: center;*/
+    margin-top: 4em;
+    margin-bottom:0px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 100;
+
+
+}
+
+.header-text p {
+    font-size: 1em;
+    /*position: center;*/
+    /*margin: 0.25rem 0;*/
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: 100;
+}
+
+p{
+	padding: 1px, 0px, 0px;
+	margin: 1px;
+}
+
+span {
+color: white;
+padding: 1px, 0px, 0px;
+margin: 1px;
+border: 0px solid black;
+background: rgba(0, 0, 0);
+background: rgba(0, 0, 0, 0.5);
+background-clip: content-box;
+}
+
+li{
+	display: inline;
+	list-style: none;
+}
+ .button, .button2
+ {
+ 	padding: 15px 32px;
+ 	text-align: center;
+ 	color:FFFFFF;
+ 	border-radius: 10px;
+ 	-moz-border-radius: 10px;
+ 	-webkit-border-radius:10px;
+ 	margin: 10px;
+ 	display: inline-block;
+ 	font-size: 16px;
+ 	background-color: #191970;
+ 	font-weight: bold;
+ 	color: white
+ }
+
+ section{
+    padding-top: 500px;
+
+ }
+
+
+/*.content{*/
+/*margin-top: 35em;*/
+}
+
+ .row {
+    font-weight: bold;
+ }
+
+.my-footer{
+ background-color: black;   
+}
+
+.footer-ul{
+    color: white;
+}
+
+.footer-ul img{
+    width: 40%;
+}
+
+/*.grid-item{*/
+    float: right;
+}
+
+/*For tablet view*/
+@media screen and (max-width: 920px) {
+    .nav-collapse {
+        width: 20%;
+    }
+    .form-inline {
+        width: 20%;
+    }
+    .header-text h1 {
+        font-size: 4.5em;
+    }
+    
+
+
+/*For mobile view*/
+@media screen and (max-width: 650px) {
+    nav {
+        padding: 1em;
+    }
+    .nav-links {
+        display: none;
+    }
+    .nav-search {
+        display: none;
+    }
+    
+    .header-text {
+        width: 100%;
+        padding: 1em;
+    }
+    .header-text h1 {
+        font-size: 3.5em;
+    }
+}
